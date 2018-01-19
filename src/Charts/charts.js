@@ -1,5 +1,5 @@
 import React from "react";
-import { sampleData } from "./theme";
+import { sampleData } from "../theme";
 import { VictoryChart, VictoryBar } from "victory";
 
 export default class Charts extends React.PureComponent {

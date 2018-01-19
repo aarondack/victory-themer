@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ReactJson from "react-json-view";
-import theme from "./theme";
-import Charts from "./Charts";
+import theme from "../theme";
+import Charts from "../Charts/charts";
 import "./App.css";
 
 class App extends Component {
