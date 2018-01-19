@@ -1,0 +1,26 @@
+body,
+div {
+  font-family: "Operator", serif;
+  font-size: 14px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 100vh;
+  grid-gap: 5px;
+  grid-template-areas: "j h";
+}
+
+.json-editor {
+  grid-area: j;
+}
+
+.victory {
+  grid-area: h;
+}
+
+@font-face {
+  font-family: "Operator";
+  src: url("./fonts/OperatorMono-Medium.otf") format("opentype");
+}
